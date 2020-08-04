@@ -4,7 +4,7 @@ import Detail from './lib/Detail'
 function App() {
   return (
     <div className="App">
-      <Detail history={window.location.pathname} />
+      <Detail path={window.location.pathname} />
     </div>
   );
 }

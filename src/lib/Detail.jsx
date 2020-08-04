@@ -25,10 +25,10 @@ export default class Detail extends Component {
   }
 
   componentDidMount() {
-    const { history } = this.props
-    const bookId = parseInt(history.replace("/", ""))
+    const { path } = this.props
+    const bookId = parseInt(path.replace("/", ""))
 
-    if (!history || !bookId) {
+    if (!path || !bookId) {
       this.setState({ initialState })
       return
     }
