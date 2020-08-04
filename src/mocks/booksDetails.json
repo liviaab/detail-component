@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "A menina que roubava livros",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere dolor ut urna volutpat varius eu non erat. Nam maximus hendrerit enim sit amet posuere. Praesent risus enim, dapibus a arcu ut, pellentesque malesuada erat. Nullam luctus faucibus purus vitae posuere. Mauris vehicula lobortis quam, sed pretium eros maximus vel. Praesent nunc orci, sodales at ante a, porttitor ultricies est. Sed elit turpis, mattis ut diam dignissim, scelerisque pretium ipsum. ",
+    "author": "Markus Zusak",
+    "year": 2020,
+    "edition": 2,
+    "isbn": 34567891231,
+    "price": 55.5,
+    "dimensions": "20 x 20 x 10",
+    "weight": 434,
+    "language": "pt-Br"
+  },
+  {
+    "id": 2,
+    "name": "Domain Driven Design",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere dolor ut urna volutpat varius eu non erat. Nam maximus hendrerit enim sit amet posuere. Praesent risus enim, dapibus a arcu ut, pellentesque malesuada erat. Nullam luctus faucibus purus vitae posuere. Mauris vehicula lobortis quam, sed pretium eros maximus vel. Praesent nunc orci, sodales at ante a, porttitor ultricies est. Sed elit turpis, mattis ut diam dignissim, scelerisque pretium ipsum. ",
+    "author": "Eric Evans",
+    "year": 2020,
+    "edition": 4,
+    "isbn": 7654123452345,
+    "price": 44.2,
+    "dimensions": "20 x 20 x 10",
+    "weight": 222,
+    "language": "pt-Br"
+  },
+  {
+    "id": 3,
+    "name": "A insustentavel leveza do ser",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere dolor ut urna volutpat varius eu non erat. Nam maximus hendrerit enim sit amet posuere. Praesent risus enim, dapibus a arcu ut, pellentesque malesuada erat. Nullam luctus faucibus purus vitae posuere. Mauris vehicula lobortis quam, sed pretium eros maximus vel. Praesent nunc orci, sodales at ante a, porttitor ultricies est. Sed elit turpis, mattis ut diam dignissim, scelerisque pretium ipsum. ",
+    "author": "Milan Kundera",
+    "year": 1990,
+    "edition": 3,
+    "isbn": 654324563245,
+    "price": 11.2,
+    "dimensions": "20 x 20 x 10",
+    "weight": 432,
+    "language": "pt-Br"
+  },
+  {
+    "id": 4,
+    "name": "O Conto da Aia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere dolor ut urna volutpat varius eu non erat. Nam maximus hendrerit enim sit amet posuere. Praesent risus enim, dapibus a arcu ut, pellentesque malesuada erat. Nullam luctus faucibus purus vitae posuere. Mauris vehicula lobortis quam, sed pretium eros maximus vel. Praesent nunc orci, sodales at ante a, porttitor ultricies est. Sed elit turpis, mattis ut diam dignissim, scelerisque pretium ipsum. ",
+    "author": "Margaret Atwood",
+    "year": 1995,
+    "edition": 2,
+    "isbn": 423452345,
+    "price": 33.2,
+    "dimensions": "",
+    "weight": 234,
+    "language": "pt-Br"
+  },
+  {
+    "id": 5,
+    "name": "Sejamos todos feministas",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere dolor ut urna volutpat varius eu non erat. Nam maximus hendrerit enim sit amet posuere. Praesent risus enim, dapibus a arcu ut, pellentesque malesuada erat. Nullam luctus faucibus purus vitae posuere. Mauris vehicula lobortis quam, sed pretium eros maximus vel. Praesent nunc orci, sodales at ante a, porttitor ultricies est. Sed elit turpis, mattis ut diam dignissim, scelerisque pretium ipsum. ",
+    "author": "Chimamanda Ngozi Adichie",
+    "year": 2020,
+    "edition": 1,
+    "isbn": 523477776765,
+    "price": 77.4,
+    "dimensions": "20 x 20 x 10",
+    "weight": 123,
+    "language": "pt-Br"
+  }
+]
