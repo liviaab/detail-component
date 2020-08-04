@@ -7,12 +7,11 @@ This is a React application created with `create-react-app` and is part of the m
 
 ### Getting Started
 1. Clone the repo
-2. Go to `detail_component` directory and run `npm install`.
+2. Go to `detail-component` directory and run `npm install`.
 3. If you want to see the standalone application, start with `npm start`
 4. To serve it to be used by the `Container`, run `npm run build:webpack` and then `npm run start:webpack`
 
 
 ### To do
-- [ ] Change hardcoded urls to .envs
 - [ ] Add tests
 - [ ] Add configuration to deploy on Heroku
