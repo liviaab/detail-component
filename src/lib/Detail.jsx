@@ -1,35 +1,37 @@
 import React, { Component } from 'react';
-// import ReactDOM from 'react-dom';
 import requests from '../services/requests'
 import './Detail.css'
 
-export default class Detail extends Component {
+const initialState = {
+  "id": 0,
+  "name": "",
+  "description": "",
+  "author": "",
+  "year": null,
+  "edition": 0,
+  "isbn": null,
+  "price": null,
+  "dimensions": "",
+  "weight": 0,
+  "language": ""
+}
 
+export default class Detail extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      book: {
-        "id": 0,
-        "name": "",
-        "description": "",
-        "author": "",
-        "year": null,
-        "edition": 0,
-        "isbn": null,
-        "price": null,
-        "dimensions": "",
-        "weight": 0,
-        "language": ""
-      }
+      book: initialState
     }
   }
 
   componentDidMount() {
     const { history } = this.props
-
-    if (!history) return
-
     const bookId = parseInt(history.replace("/", ""))
+
+    if (!history || !bookId) {
+      this.setState({ initialState })
+      return
+    }
 
     const book = requests().get(bookId)
     this.setState({ book })
